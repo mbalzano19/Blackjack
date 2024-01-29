@@ -9,15 +9,25 @@
 </head>
 <body>
     <p>BLACKJACK</p>
-    <button>Play</button>
-    <button>Hit</button>
-    <button>Stay</button>
-    <button>Bet</button>
+    <button id="play-button">Play</button>
+    <button id="hit-button">Hit</button>
+    <button id="stay-button">Stay</button>
+    <button id="bet-button">Bet</button>
     <h3>Original Deck</h3>
     <section id="original-deck-container" class="card-container"></section>
     <button>RE-SHUFFLE DECK</button>
     <h3>Shuffled Deck</h3>
     <section id="shuffled-deck-container" class="card-container">
     </section>
+    <div id="player-cards" class="playercards">
+        <div id="player-card-1">
+            <p id="player-rank-1"></p>
+            <p id="player-suit-1"></p>
+        </div>
+        <div id="player-card-2">
+            <p id="player-rank-2"></p>
+            <p id="player-suit-2"></p>
+        </div>
+    </div>
 </body>
 </html>
